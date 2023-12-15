@@ -37,8 +37,24 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - CardShop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        
+        <div class="row">
+            <div class="col-md-4">
+                &copy; 2023 - CardShop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-pic">
+                    @if (IsSectionDefined("RightFooter"))
+                    {
+                        @RenderSection("RightFooter")
+                    }
+                    else
+                    {
+                        <img width="50" height="100" src="~/images/felpo.jpg" />
+                    }
+                    <p>Picture content goes here.</p>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

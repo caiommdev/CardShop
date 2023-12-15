@@ -13,6 +13,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\arvore-sabia.webp",
+      "PackagePath": "staticwebassets\\images\\arvore-sabia.webp"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\digi-card.jpg",
+      "PackagePath": "staticwebassets\\images\\digi-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\fab-card.png",
+      "PackagePath": "staticwebassets\\images\\fab-card.png"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\felpo.jpg",
+      "PackagePath": "staticwebassets\\images\\felpo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\macaco.jpg",
+      "PackagePath": "staticwebassets\\images\\macaco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\magic-card.jpg",
+      "PackagePath": "staticwebassets\\images\\magic-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\op-card.jpg",
+      "PackagePath": "staticwebassets\\images\\op-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\pkm-card.jpg",
+      "PackagePath": "staticwebassets\\images\\pkm-card.jpg"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\snorlax.webp",
+      "PackagePath": "staticwebassets\\images\\snorlax.webp"
+    },
+    {
+      "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\images\\yugioh-card.jpg",
+      "PackagePath": "staticwebassets\\images\\yugioh-card.jpg"
+    },
+    {
       "Id": "C:\\Users\\caiom\\Documents\\Infnet\\CSharp\\CardShop\\CardShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
