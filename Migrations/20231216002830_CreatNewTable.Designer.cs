@@ -4,6 +4,7 @@ using CardShop.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CardShop.Migrations
 {
     [DbContext(typeof(CardShopContext))]
-    partial class CardShopContextModelSnapshot : ModelSnapshot
+    [Migration("20231216002830_CreatNewTable")]
+    partial class CreatNewTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -53,16 +55,6 @@ namespace CardShop.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("BoardGame");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreationDate = new DateTime(2023, 12, 15, 21, 39, 35, 543, DateTimeKind.Local).AddTicks(8451),
-                            Game = "jogo",
-                            Name = "Jogo do pao",
-                            Price = 0
-                        });
                 });
 
             modelBuilder.Entity("CardShop.Models.Card", b =>

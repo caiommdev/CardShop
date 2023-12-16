@@ -11,5 +11,19 @@ namespace CardShop.Data
         }
 
         public DbSet<Card> Card { get; set; } = default!;
+
+        public DbSet<BoardGame>? BoardGame { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<BoardGame>().HasData(
+                new BoardGame
+                {
+                    Id = 1,
+                    Name = "Jogo do pao",
+                    Price = 0,
+                    Game = "jogo"
+                });
+        }
     }
 }
